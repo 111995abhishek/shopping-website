@@ -4,6 +4,7 @@ import HomePage from './Pages/Homepage';
 import './default.scss';
 import { Route, Switch } from 'react-router-dom';
 import Register from './Pages/Registration';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer/>
 
     </div>
   );

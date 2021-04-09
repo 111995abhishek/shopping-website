@@ -5,6 +5,7 @@ import './default.scss';
 import { Route, Switch } from 'react-router-dom';
 import Register from './Pages/Registration';
 import Footer from './components/Footer';
+import Login from './Pages/login';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route path='/register' component={Register}>
             <Register />
+          </Route>
+          <Route path='/login' component={Login}>
+            <Login/>
           </Route>
         </Switch>
       </div>

@@ -1,13 +1,10 @@
 .header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
     width:100%;
     height:60px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin:0 auto;
-    width:100%;
-    padding:0;
+
+    
     background-color: lightsalmon;
 }
 img{
@@ -16,12 +13,24 @@ img{
         max-height: 50px;
         max-width: 250px;
 }
-.logo{
-    // position: fixed;
-    padding-left:220px;
-    margin-top: 5px;
+
+.inner-wrapper{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 220px;    
 }
-.reg-btn{
-    padding-right: 200px;
-    padding-top: 15px;
+.nav-area{
+    list-style: none;
 }
+.nav-area li{
+    display: inline-block;
+    padding:0 10px;
+    text-transform: uppercase;
+}
+
+
